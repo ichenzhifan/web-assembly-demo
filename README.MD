@@ -1,0 +1,1 @@
+emcc ./cpplus/add.c -Os -s WASM=1 -s SIDE_MODULE=1 -o ./wa/add.wasm
